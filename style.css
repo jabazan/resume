@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #768390;
   background: #FFF;
@@ -48,6 +52,18 @@ a:hover {
 
 ul#contacto li {
   display: inline;
+}
+
+.logo {
+  max-width: 150px;
+  filter: grayscale();
+  
+}
+
+.logo_chico {
+  max-width: 100px;
+  filter: grayscale();
+  
 }
 .fa-linkedin {
   font-size: 32px;
@@ -206,6 +222,7 @@ ul#contacto li {
   letter-spacing: 3px;
   margin: 0 0 0.5em 0;
   text-transform: uppercase;
+  text-align: center;
   white-space: nowrap;
 }
 
