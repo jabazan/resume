@@ -1,2 +1,2 @@
-HTML & CSS Resume
+Resume in HTML & CSS
 
